@@ -1,0 +1,16 @@
+.canva {
+  height: 100vh;
+  background-size: cover;
+  filter: brightness(5) blur(30px);
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #5c1bc3, #1f88bc);
+    opacity: 0.6;
+  }
+}

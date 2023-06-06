@@ -1,0 +1,63 @@
+@import "./element.scss";
+@import "./canva.scss";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-weight: var(--base-font-weight);
+  font-size: var(--base-font-size);
+  font-family: "Noto Sans SC", "Helvetica Neue", Helvetica, "PingFang SC",
+    "Microsoft YaHei", Tahoma, system-ui, Arial, sans-serif;
+  line-height: 1.5;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #d5d5d5;
+    border-radius: 20px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  --aside-width: 0px;
+  --aside-width-expanded: 250px;
+  --aside-width-collapsed: 64px;
+  --drawer-width: 0px;
+  --header-height: 120px;
+  --partial-header-height: 0px;
+
+  --base-font-weight: 400;
+  --base-font-size: 1.02rem;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 320px;
+}
+
+#app {
+  position: fixed;
+  top: 0;
+
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

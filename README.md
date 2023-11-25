@@ -33,3 +33,7 @@ $ npm run build
 ```bash
 $ npm run build:s
 ```
+
+# Contributors
+
+- sweetbrulee

@@ -1,4 +1,5 @@
-<img src="https://github.com/cotiser/rua/assets/12660628/2fac9731-4eb3-4cb8-a816-10bf6cef98b3" width="60"> 
+<img src="https://github.com/cotiser/rua/assets/12660628/2567a87c-ba95-4d0d-8469-a365870f5f30" width="60"> 
+
 
 # Getting Started
 
@@ -33,7 +34,3 @@ $ npm run build
 ```bash
 $ npm run build:s
 ```
-
-# Contributors
-
-- sweetbrulee

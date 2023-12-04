@@ -43,6 +43,8 @@ axios.defaults.withCredentials = true;
 
 // ---------------------------------------------
 
+import "@/utils/mqtt";
+
 // In composition API setup we can't use "this", you should use provide API to share the globally instance properties first, then use inject API to inject axios to setup
 app.provide("axios", app.config.globalProperties.axios);
 

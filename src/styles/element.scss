@@ -63,7 +63,7 @@
   }
 
   h1 {
-    font-size: 7vw;
+    font-size: clamp(60px, 7vw, 7vw);
     font-weight: 800;
 
     will-change: text-shadow;
@@ -75,7 +75,7 @@
   }
 
   h2 {
-    font-size: 3vw;
+    font-size: clamp(45px, 3vw, 3vw);
     font-weight: 800;
 
     will-change: text-shadow;
@@ -87,7 +87,7 @@
   }
 
   h3 {
-    font-size: 2vw;
+    font-size: clamp(30px, 2vw, 2vw);
     font-weight: 700;
 
     will-change: text-shadow;

@@ -4,10 +4,7 @@ import Breadcrumb from "./Breadcrumb.vue";
 
 <template>
   <el-header>
-    <div class="partial-header">
-      <SearchBar></SearchBar>
-      <NewsDrawer></NewsDrawer>
-    </div>
+    <div class="partial-header"></div>
     <Breadcrumb></Breadcrumb>
   </el-header>
 </template>

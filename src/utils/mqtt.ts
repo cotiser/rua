@@ -1,6 +1,6 @@
 import * as mqtt from "mqtt/dist/mqtt.min";
 
-export const client = mqtt.connect("ws://222.201.144.170:9001", {
+export const client = mqtt.connect("wss://222.201.144.170:9001", {
   username: "b3351",
   password: "scutb3351-mqtt",
   clientId: "smarthome_c" + Date.now(),
